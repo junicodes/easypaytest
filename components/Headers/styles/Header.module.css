@@ -1,0 +1,60 @@
+
+
+.container {
+    height: 800px;
+    background: #f6f9ff;
+    -webkit-clip-path: ellipse(100% 55% at 48% 44%);
+    clip-path: ellipse(100% 55% at 48% 44%);
+}
+.containerBottomSvg {
+    width: 100%;
+}
+
+/* Hero text */
+.heroTextContainer {
+
+}
+
+.heroTextH1 {
+    font-size: 55px;
+    line-height: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #0b254a;
+}
+
+
+.onlineBtn {
+    background: #7162b7;
+}
+
+.smeBtn {
+    background: #f6f9ff;
+    border-color: #7162b7;
+}
+
+.heroCardBig {
+    width: 420px;
+}
+
+.heroCardmini {
+    width: 100%;
+    height: 105px;
+}
+
+.heroCardmini .largeText {
+    font-size: 35px;
+    line-height: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #0b254a;
+}
+
+/* Target Only Safari */
+@media not all and (min-resolution:.001dpcm) { 
+    @media screen and (min-width: 1950px) {  
+        .heroCardBig {
+            height: 480px;
+        }
+    }
+}

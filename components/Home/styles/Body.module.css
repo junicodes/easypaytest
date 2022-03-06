@@ -1,0 +1,53 @@
+
+
+.companyContainer {
+    height: 320px;
+}
+
+.tabNav .tabSelected {
+    background: #f5fafe;
+}
+
+.tabDisplay {
+    height: auto;
+}
+
+.heroText {
+    font-size: 40px;
+    line-height: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #0b254a;
+}
+
+.lifeat1::before {
+    content: "\2022";
+    color: #1d62ca;
+    font-weight: bold;
+    font-size: 35px;
+    display: inline-block; 
+    width: 20px;
+}
+.lifeat2::before {
+    content: "\2022";
+    color: #b9acf2;
+    font-weight: bold;
+     font-size: 35px;
+    display: inline-block; 
+    width: 20px;
+}
+.lifeat3::before {
+    content: "\2022";
+    color: #fff0bd;
+    font-weight: bold;
+     font-size: 35px;
+    display: inline-block; 
+    width: 20px;
+}
+
+
+/* @media screen and (min-width: 1750px) {
+    .tabDisplay {
+        height: auto;
+    }
+} */
