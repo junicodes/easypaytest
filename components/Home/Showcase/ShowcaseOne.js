@@ -3,7 +3,7 @@ import { HiChevronDown } from "react-icons/hi";
 import PieChartView from "../../Packages/Charts/ReChart/PieChartView";
 import styles from "../styles/Body.module.css";
 const data = [
-  { name: "Trnsport", value: 4000.59 },
+  { name: "Transport", value: 4000.59 },
   { name: "Online shopping", value: 5900.00 },
   { name: "Retaurant", value: 4593.10 },
 ];
