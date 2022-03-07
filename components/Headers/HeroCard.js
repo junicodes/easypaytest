@@ -5,7 +5,7 @@ import { BiWifi0, BiChevronRight } from "react-icons/bi";
 
 const HeroCard = () => {
   return (
-        <div className={`${styles.heroCardBig} bg-white rounded-3xl mt-32 shadow-2xl shadow-gray-200 p-6`}>
+        <div className={`${styles.heroCardBig} bg-white rounded-3xl mt-24 xl:mt-32 shadow-2xl shadow-gray-200 p-6`}>
            <h3 className='text-xl font-semibold' style={{color: "#0b254a"}}>
                Pay this invoice
            </h3>

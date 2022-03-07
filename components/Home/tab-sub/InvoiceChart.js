@@ -69,7 +69,7 @@ const areaOption = {
 
 const InvoiceChart = () => {
   return (
-    <div className='border w-1/2 h-56 rounded-lg relative'>
+    <div className='border w-1/2 h-48 xl:h-56 rounded-lg relative'>
         <p className="text-black font-bold text-sm text-left px-2 py-2">Invoice</p>
         <SimpleAreaChart areaOption={areaOption}/>
     </div>

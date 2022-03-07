@@ -3,7 +3,7 @@ import React from 'react'
 
 const Invoice = () => {
   return (
-    <div className='border w-1/2 h-40 rounded-lg p-6'>
+    <div className='border w-1/2 h-32 xl:h-40 rounded-lg p-4 xl:p-6'>
         <div>
           <h5 className="text-lg font-semibold text-left" style={{color: '#0b254a'}}>
             Invoice
@@ -12,7 +12,7 @@ const Invoice = () => {
             Where a payment provide <br></br> offer multiple types
           </p>
         </div>
-        <div className='mt-8 flex justify-between'>
+        <div className='mt-3 xl:mt-8 flex justify-between'>
           <h5 className="text-xl font-semibold text-left" style={{color: '#0b254a'}}>
             $ 99.00<span className='text-gray-300'>/mo</span>
           </h5>

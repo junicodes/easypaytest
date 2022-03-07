@@ -46,8 +46,11 @@
 }
 
 
-/* @media screen and (min-width: 1750px) {
-    .tabDisplay {
-        height: auto;
+@media screen and (max-width: 768px) {
+    .companyContainer {
+        height: 800px;
     }
-} */
+    .heroText {
+        font-size: 30px;
+    }
+}

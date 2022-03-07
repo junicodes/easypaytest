@@ -4,6 +4,7 @@ import React from 'react'
 import NoAxisAreaChart from '../../Packages/Charts/ReChart/NoAxisAreaChart';
 import PieChart from '../../Packages/Charts/ReChart/PieChartView'
 import SimpleAreaChart from '../../Packages/Charts/ReChart/SimpleAreaChart'
+import { useMediaQuery } from 'react-responsive'
 
 const data = [
   {
@@ -80,21 +81,28 @@ const data = [
   }
 ];
 
-const areaOption = {
-  data,
-  width: 500,
-  height: 400,
-  margin: {
-    top: 80,
-    right: 0,
-    left: 0,
-    bottom: 0,
-  }
-}
 
 const InvoiceChart = () => {
+
+    // const isDesktopOrLaptop = useMediaQuery({
+    //     query: '(min-width: 1224px)'
+    // })
+    const isTab = useMediaQuery({
+        query: '(max-width: 1224px)'
+    })
+    const areaOption = {
+        data,
+        width: 500,
+        height: 400,
+        margin: {
+          top: isTab ? 60 : 100,
+          right: 0,
+          left: 0,
+          bottom: 0,
+        }
+    }
   return (
-    <div className='border w-full h-48 rounded-2xl mt-5 relative overflow-hidden'>
+    <div className='border w-full h-32 xl:h-48 rounded-2xl mt-2 xl:mt-5 relative overflow-hidden'>
         <NoAxisAreaChart areaOption={areaOption}/>
     </div>
   )

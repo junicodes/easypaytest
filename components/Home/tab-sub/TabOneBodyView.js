@@ -14,23 +14,23 @@ import Subscription from './Subscription'
 const TabOneBodyView = () => {
   return (
     <div className='flex justify-between'>
-        <div className='w-4/6 p-8'>
-            <h1 className='my-2 text-3xl text-black font-medium'>
+        <div className='w-8/12 xl:w-4/6 p-2 xl:p-4'>
+            <h1 className='my-2 text-xl xl:text-3xl text-black font-medium'>
                 Billing details
             </h1>
-            <div className='flex justify-between space-x-6'>
+            <div className='flex justify-between space-x-2 xl:space-x-6'>
                 <AtmCard />
                 <InvoiceChart />
             </div>
-            <h1 className='mt-8 mb-3 text-lg font-medium'>Payment history</h1>
-            <div className='flex justify-between space-x-3'>
+            <h1 className='mt-3 xl:mt-8 mb-3 text-lg font-medium'>Payment history</h1>
+            <div className='flex justify-between space-x-2'>
                 <Invoice />
                 <Subscription />
             </div>
             <GrowthChart />
             <PaymentConnect />
         </div>
-        <div className='w-2/6 p-8 space-y-8 flex flex-col justify-between'>
+        <div className='w-4/12 xl:w-2/6 p-2 xl:p-4 space-y-1 xl:space-y-8 flex flex-col justify-between'>
             <Activities />
             <BillView />
         </div>

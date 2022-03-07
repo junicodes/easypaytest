@@ -9,7 +9,7 @@ import ToolConnect from './ToolConnect'
 
 const Body = () => {
   return (
-    <div className='container mx-auto px-10'>
+    <div className='xl:container mx-auto px-10'>
         <Company />
         <TabView />
         <Showcase />

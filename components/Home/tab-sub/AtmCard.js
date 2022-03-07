@@ -2,8 +2,8 @@ import React from "react";
 
 const AtmCard = () => {
   return (
-    <div className="border w-1/2 h-56 rounded-lg p-6">
-      <div className="flex justify-between items-center mb-5">
+    <div className="border w-1/2 h-48 xl:h-56 rounded-lg p-6">
+      <div className="flex justify-between items-center mb-2 xl:mb-5">
         <div>
           <img className="w-10 h-8 mr-3" src={`/images/tab-atm-card.jpg`} />
         </div>
@@ -29,7 +29,7 @@ const AtmCard = () => {
       </div>
 
 
-      <div className="flex justify-between items-center mt-10">
+      <div className="flex justify-between items-center mt-4 xl:mt-10">
         <div>
           <h5 className="text-xl font-semibold text-left" style={{color: '#0b254a'}}>
             $ 452,841

@@ -18,7 +18,7 @@ const TabView = () => {
         <h1 className={`${styles.heroText} text-center`}>
           Experience Easypay
         </h1>
-        <p className="text-xl text-center mt-4 mb-12 text-gray-600">
+        <p className="text-sm sm:text-xl text-center mt-4 mb-12 text-gray-600">
           Discover Upflow through our Virtual Product Tour
         </p>
        <TabNav onHandleTabView={handleTabView} />

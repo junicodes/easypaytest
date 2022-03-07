@@ -12,7 +12,7 @@ const TabNav = ({ onHandleTabView }) => {
 
   return (
     <div
-      className={`${styles.tabNav} flex justify-center w-1/2 mx-auto items-center`}
+      className={`${styles.tabNav} flex justify-center w-full md:w-3/4 xl:w-1/2 mx-auto items-center`}
     >
       <div
         onClick={() => handleTabSelect(0)}
@@ -21,7 +21,7 @@ const TabNav = ({ onHandleTabView }) => {
         } w-1/3 h-12 flex justify-center items-center cursor-pointer`}
       >
         <img className="w-6 h-6 mr-2" src="/images/tab-one.jpg" />
-        <p>Secure Liquidity</p>
+        <p className="text-sm xl:text-lg">Secure Liquidity</p>
       </div>
       <div
         onClick={() => handleTabSelect(1)}
@@ -30,7 +30,7 @@ const TabNav = ({ onHandleTabView }) => {
         } w-1/3 h-12  flex justify-center items-center cursor-pointer`}
       >
         <img className="w-6 h-6 mr-2" src="/images/tab-two.jpg" />
-        <p>Digital Payment</p>
+        <p className="text-sm xl:text-lg">Digital Payment</p>
       </div>
       <div
         onClick={() => handleTabSelect(2)}
@@ -39,7 +39,7 @@ const TabNav = ({ onHandleTabView }) => {
         } w-1/3 h-12  flex justify-center items-center cursor-pointer`}
       >
         <img className="w-6 h-6 mr-2" src="/images/tab-three.jpg" />
-        <p>Automated Process</p>
+        <p className="text-sm xl:text-lg">Automated Process</p>
       </div>
     </div>
   );

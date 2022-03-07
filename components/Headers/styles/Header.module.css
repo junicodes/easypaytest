@@ -1,6 +1,6 @@
 
 
-.container {
+.appHolder {
     height: 800px;
     background: #f6f9ff;
     -webkit-clip-path: ellipse(100% 55% at 48% 44%);
@@ -56,5 +56,39 @@
         .heroCardBig {
             height: 480px;
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {  
+
+    .heroTextH1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 900px) {  
+    .appHolder {
+        height: 750px;
+    }
+
+    .heroTextH1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {  
+    .appHolder {
+        height: 500px;
+    }
+
+    .heroTextH1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {  
+
+    .heroTextH1 {
+        font-size: 22px;
     }
 }
