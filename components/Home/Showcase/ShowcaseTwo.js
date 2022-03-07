@@ -103,7 +103,7 @@ const ShowcaseTwo = () => {
           </div>
 
           
-          <div className="w-full md:w-1/2 md:p-10 my-10 order-first md:order-last">
+          <div className="w-full md:w-1/2 mt-20 md:mt-0 d:p-10 my-10 order-first md:order-last">
             <h1
               className={`${styles.heroText} text-left`}
               style={{ fontSize: "32px" }}

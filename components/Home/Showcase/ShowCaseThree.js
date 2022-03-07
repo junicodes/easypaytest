@@ -78,7 +78,7 @@ const ShowcaseThree = () => {
     <>
         <div className="divblock w-full flex flex-col justify-center mt-10 md:my-44 rounded-xl">
         <div className="w-full lg:w-11/12 3xl:w-9/12 mx-auto h-full flex flex-col md:flex-row justify-center md:justify-between">
-                <div className="w-full lg:w-1/2 md:p-10 md:my-10">
+                <div className="w-full lg:w-1/2 mt-20 md:mt-0 md:p-10 md:my-10">
                     <h1 className={`${styles.heroText} text-left`} style={{fontSize: "32px"}}>
                      Streamlined payments
                     </h1>
