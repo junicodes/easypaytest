@@ -23,14 +23,14 @@ const areaOption = {
 const ShowcaseOne = () => {
   return (
     <>
-      <div className="divblock w-full flex flex-col justify-center my-44 rounded-xl">
-        <div className="w-11/12 3xl:w-9/12 mx-auto h-full flex justify-between">
+      <div className="divblock w-full flex flex-col justify-center mt-10 md:my-44 rounded-xl">
+        <div className="w-full lg:w-11/12 3xl:w-9/12 mx-auto h-full flex flex-col md:flex-row justify-center md:justify-between">
 
-          <div className="w-1/2 p-10 mt-10">
+          <div className="w-full lg:w-1/2 md:p-10 my-10">
             <h1 className={`${styles.heroText} text-left`} style={{fontSize: "32px"}}>
               Understand your cash flow
             </h1>
-            <p className="text-lg text-left mt-8 mb-5 text-gray-600 leading-normal">
+            <p className="text-lg md:text-sm xl:text-lg text-left mt-8 mb-5 text-gray-600 leading-normal">
               Make better business decisions through a deep, <br></br> 
               real time view of accounts receivable.
             </p>
@@ -56,10 +56,10 @@ const ShowcaseOne = () => {
             </div>
           </div>
 
-          <div className="w-1/2 innerBlock2 flex justify-center items-center flex-col rounded-xl relative">
+          <div className="w-full lg:w-1/2 innerBlock2 flex justify-center items-center flex-col rounded-xl relative">
 
             <div className="bg-white w-10/12 innerBlock22 -translate-x-4 -translate-y-7 rounded-2xl shadow-2xl shadow-gray-200">
-              <div className="flex justify-between px-8 pt-6">
+              <div className="flex justify-between px-2 lg:px-8 pt-6">
                 <h5
                   className="text-2xl font-semibold text-left"
                   style={{ color: "#0b254a" }}
@@ -76,21 +76,21 @@ const ShowcaseOne = () => {
                 </div>
               </div>
               <div className="w-full h-full rounded-lg relative flex justify-between">
-                <ul className="w-5/12 text-sm p-8">
+                <ul className="w-5/12 text-sm p-2 lg:p-8">
                     <li className={`${styles.lifeat1} my-2 font-semibold`}>
-                        <p className="-mt-6 ml-5">
+                        <p className="-mt-6 ml-5 text-xs">
                             Transport <br></br>{" "}
                             <span className="font-normal text-gray-300">$4,000.59 </span>
                         </p>
                     </li>
                     <li className={`${styles.lifeat2} my-2 font-semibold`}>
-                        <p className="-mt-6 ml-5">
+                        <p className="-mt-6 ml-5 text-xs">
                             Online Shopping <br></br>
                             <span className="font-normal text-gray-300"> $5,900.00 </span>
                         </p>
                     </li>
                     <li className={`${styles.lifeat2} my-2 font-semibold`}>
-                        <p className="-mt-6 ml-5">
+                        <p className="-mt-6 ml-5 text-xs">
                             Retaurant <br></br>
                             <span className="font-normal text-gray-300"> $4,593.10 </span>
                         </p>
@@ -100,7 +100,7 @@ const ShowcaseOne = () => {
               </div>
             </div>
 
-            <div className="bg-white h-40 w-80 absolute bottom-14 -right-20 rounded-2xl p-8 shadow-2xl shadow-gray-200">
+            <div className="bg-white h-40 w-64 lg:w-80 absolute bottom-14 -right-0 xl:-right-20 rounded-2xl p-8 shadow-2xl shadow-gray-200">
                 <div className="flex justify-start items-center space-x-2">
                     <img className="w-5 h-5" src={`/images/coperate-logo.jpg`} />
                     <h5 className="text-gray-500 font-semibold text-left text-md">
@@ -137,6 +137,18 @@ const ShowcaseOne = () => {
         }
         .innerBlock22 {
           height: 300px;
+        }
+        @media screen and (max-width: 768px) {  
+            .divblock {
+               height: 900px;
+            }
+            .innerBlock2 {
+               height: 600px;
+               background: #f4f9ff;
+            }
+            .innerBlock22 {
+               height: 400px;
+            }
         }
       `}</style>
     </>

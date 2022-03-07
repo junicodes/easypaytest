@@ -76,13 +76,13 @@ const areaOption = {
 const ShowcaseThree = () => {
   return (
     <>
-        <div className='divblock w-full flex flex-col justify-center my-44 rounded-2xl'>
-           <div className='w-11/12 3xl:w-9/12 mx-auto h-full flex justify-between'>
-                <div className="w-1/2 p-10 mt-10">
+        <div className="divblock w-full flex flex-col justify-center mt-10 md:my-44 rounded-xl">
+        <div className="w-full lg:w-11/12 3xl:w-9/12 mx-auto h-full flex flex-col md:flex-row justify-center md:justify-between">
+                <div className="w-full lg:w-1/2 md:p-10 md:my-10">
                     <h1 className={`${styles.heroText} text-left`} style={{fontSize: "32px"}}>
                      Streamlined payments
                     </h1>
-                    <p className="text-lg text-left mt-8 mb-5 text-gray-600 leading-normal">
+                    <p className="text-lg md:text-sm xl:text-lg text-left mt-8 mb-5 text-gray-600 leading-normal">
                     Offer new payments methods that better suit your<br></br> 
                     customer&apos;s needs reduce your time to get <br></br> paid.
                     </p>
@@ -107,8 +107,8 @@ const ShowcaseThree = () => {
                         <img className="w-6 h-5" src={`/images/blue-arrow.jpg`} />
                     </div>
                 </div>
-                <div className='w-1/2 innerBlock2 flex justify-center items-center flex-col rounded-2xl relative'>
-                    <div className='bg-white w-8/12 shadow-2xl shadow-gray-200 boxH rounded-2xl'>
+                <div className="w-full lg:w-1/2 innerBlock2 mb-20 md:mb-0 mt-10 md:mt-0 flex justify-center items-center flex-col rounded-xl relative">
+                    <div className='bg-white w-10/12 shadow-2xl shadow-gray-200 boxH rounded-2xl'>
                         <div className='p-8'>
                             <div className="flex justify-between items-center">
                                 <h5
@@ -133,14 +133,14 @@ const ShowcaseThree = () => {
                           <SimpleBarChart areaOption={areaOption}/>
                         </div>
                     </div>
-                    <div className='bg-white boxHModal shadow-2xl shadow-gray-200 w-80 absolute bottom-2 -right-5 rounded-2xl p-6'>
+                    <div className='bg-white boxHModal shadow-2xl shadow-gray-200 xl:w-80 absolute bottom-2 -right-5 rounded-2xl p-6'>
                         <h5
                             className="text-sm font-bold text-left text-black"
                             >
                             Last Transaction
                         </h5>
                         <div>
-                            <div className="flex justify-between mt-2 items-center">
+                            <div className="flex justify-between xl:mt-2 items-center">
                                 <div className="relative flex justify-start space-x-3 my-2 items-center">
                                     <img className="w-9 h-9" src={`/images/spotify.jpg`} />
                                     <p className="text-xs text-left leading-tight font-semibold" style={{ color: "#0b254a" }}>
@@ -150,7 +150,7 @@ const ShowcaseThree = () => {
                                 </div>
                                 <p className="text-sm text-center" style={{ color: "#0b254a" }}>78.69</p>
                             </div>
-                            <div className="flex justify-between mt-2 items-center">
+                            <div className="flex justify-between xl:mt-2 items-center">
                                 <div className="relative flex justify-start space-x-3 my-2 items-center">
                                     <img className="w-9 h-9" src={`/images/nike.jpg`} />
                                     <p className="text-xs text-left leading-tight font-semibold" style={{ color: "#0b254a" }}>
@@ -160,7 +160,7 @@ const ShowcaseThree = () => {
                                 </div>
                                 <p className="text-sm text-center" style={{ color: "#0b254a" }}>78.69</p>
                             </div>
-                            <div className="flex justify-between mt-2 items-center">
+                            <div className="flex justify-between xl:mt-2 items-center">
                                 <div className="relative flex justify-start space-x-3 my-2 items-center">
                                     <img className="w-9 h-9" src={`/images/apple.jpg`} />
                                     <p className="text-xs text-left leading-tight font-semibold" style={{ color: "#0b254a" }}>
@@ -170,7 +170,7 @@ const ShowcaseThree = () => {
                                 </div>
                                 <p className="text-sm text-center" style={{ color: "#0b254a" }}>78.69</p>
                             </div>
-                            <div className="flex justify-between mt-2 items-center">
+                            <div className="flex justify-between xl:mt-2 items-center">
                                 <div className="relative flex justify-start space-x-3 my-2 items-center">
                                     <img className="w-9 h-9" src={`/images/paypal.jpg`} />
                                     <p className="text-xs text-left leading-tight font-semibold" style={{ color: "#0b254a" }}>
@@ -206,6 +206,21 @@ const ShowcaseThree = () => {
                     .boxHModal {
                         height: 350px;
                     }
+                }
+            }
+            @media screen and (max-width: 768px) {  
+                .divblock {
+                   height: 1000px;
+                }
+                .innerBlock2 {
+                   height: 600px;
+                   background: #f4f9ff;
+                }
+                .innerBlock22 {
+                   height: 400px;
+                }
+                .boxHModal {
+                    height: 250px;
                 }
             }
         `}</style>
