@@ -56,9 +56,9 @@ const ShowcaseOne = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2 innerBlock2 flex justify-center items-center flex-col rounded-xl relative">
+          <div className="w-full lg:w-1/2 innerBlock2 flex justify-center items-center flex-col rounded-xl relative p-4 md:p-0">
 
-            <div className="bg-white w-10/12 innerBlock22 -translate-x-4 -translate-y-7 rounded-2xl shadow-2xl shadow-gray-200">
+            <div className="bg-white w-full md:w-10/12 innerBlock22 md:-translate-x-4 md-translate-y-7 rounded-2xl shadow-2xl shadow-gray-200">
               <div className="flex justify-between px-2 lg:px-8 pt-6">
                 <h5
                   className="text-2xl font-semibold text-left"
@@ -75,8 +75,8 @@ const ShowcaseOne = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full h-full rounded-lg relative flex justify-between">
-                <ul className="w-5/12 text-sm p-2 lg:p-8">
+              <div className="w-full h-full rounded-lg relative flex flex-col md:flex-row md:justify-between">
+                <ul className="md:w-5/12 text-sm md:p-2 -mt-3 md:-mt-0 lg:p-8 flex flex-row md:flex-col">
                     <li className={`${styles.lifeat1} my-2 font-semibold`}>
                         <p className="-mt-6 ml-5 text-xs">
                             Transport <br></br>{" "}
@@ -96,7 +96,9 @@ const ShowcaseOne = () => {
                         </p>
                     </li>
                 </ul>
-                <PieChartView areaOption={areaOption} />
+                <div className="w-full md:w-7/12 order-first md:order-last">
+                  <PieChartView areaOption={areaOption} />
+                </div>
               </div>
             </div>
 

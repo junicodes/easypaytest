@@ -930,6 +930,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 2.5rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1235,6 +1239,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-40 {
   margin-left: 10rem;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
 }
 
 .block {
@@ -2430,6 +2442,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0px;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3043,6 +3059,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 6rem;
   }
 
+  .md\:-mt-0 {
+    margin-top: -0px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3175,8 +3195,21 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 13rem;
   }
 
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .md\:-translate-x-4 {
+    --tw-translate-x: -1rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:items-start {
@@ -3233,6 +3266,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:p-14 {
     padding: 3.5rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:px-10 {

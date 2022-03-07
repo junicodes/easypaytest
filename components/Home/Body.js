@@ -14,7 +14,7 @@ const Body = () => {
     })
 
   return (
-    <div className='xl:container mx-auto px-10'>
+    <div className='xl:container mx-auto px-6 xl:px-10'>
         <Company />
         <TabView />
         <Showcase />

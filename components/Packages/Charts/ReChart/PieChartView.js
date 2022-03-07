@@ -63,7 +63,7 @@ const PieChartPreview = ({ areaOption }) => {
   return (
     <>
       <section
-        className={`w-7/12 first-letter:animate__animated animate__fadeIn scroller`}
+        className={` w-full h-full first-letter:animate__animated animate__fadeIn scroller`}
       >
         <ResponsiveContainer width="100%" height="100%">
           <PieChart    

@@ -107,8 +107,8 @@ const ShowcaseThree = () => {
                         <img className="w-6 h-5" src={`/images/blue-arrow.jpg`} />
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 innerBlock2 mb-20 md:mb-0 mt-10 md:mt-0 flex justify-center items-center flex-col rounded-xl relative">
-                    <div className='bg-white w-10/12 shadow-2xl shadow-gray-200 boxH rounded-2xl'>
+                <div className="w-full lg:w-1/2 innerBlock2 p-4 mb-20 md:mb-0 mt-10 md:mt-0 flex justify-center items-center flex-col rounded-xl relative">
+                    <div className='bg-white w-full md:w-10/12 shadow-2xl shadow-gray-200 boxH rounded-2xl'>
                         <div className='p-8'>
                             <div className="flex justify-between items-center">
                                 <h5
