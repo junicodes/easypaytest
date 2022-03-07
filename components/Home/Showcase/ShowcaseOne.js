@@ -56,7 +56,7 @@ const ShowcaseOne = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2 innerBlock2 flex justify-center items-center flex-col rounded-xl relative p-4 md:p-0">
+          <div className="w-full lg:w-1/2 innerBlock2 flex justify-center items-center flex-col p-4 md:p-0 rounded-xl relative">
 
             <div className="bg-white w-full md:w-10/12 innerBlock22 md:-translate-x-4 md-translate-y-7 rounded-2xl shadow-2xl shadow-gray-200">
               <div className="flex justify-between px-2 lg:px-8 pt-6">
@@ -96,7 +96,7 @@ const ShowcaseOne = () => {
                         </p>
                     </li>
                 </ul>
-                <div className="w-full md:w-7/12 order-first md:order-last">
+                <div className="w-full h-full md:w-7/12 order-first md:order-last">
                   <PieChartView areaOption={areaOption} />
                 </div>
               </div>
