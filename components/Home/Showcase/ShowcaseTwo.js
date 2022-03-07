@@ -12,7 +12,7 @@ const ShowcaseTwo = () => {
   return (
     <>
       <div className="divblock w-full flex flex-col justify-center my-10 xl:my-44 rounded-2xl">
-         <div className="w-full lg:w-11/12 3xl:w-9/12 md:space-x-6 mx-auto h-full flex flex-col md:flex-row justify-center xl:justify-between">
+         <div className="w-full lg:w-11/12 3xl:w-9/12 md:space-x-16 mx-auto h-full flex flex-col md:flex-row justify-center xl:justify-between">
 
          <div className="w-full md:w-1/2 p-4 innerBlock2 flex justify-center items-center flex-col rounded-xl relative order-last md:order-first">
 
