@@ -70,7 +70,7 @@ const ToolConnect = () => {
                on our cash collection strategy <br></br>
                at Front and makes it easy to <br></br>
                reach all of our customers, <br></br> 
-               whether they're an SMB or <br></br>
+               whether they&apos;re an SMB or <br></br>
                 Enterprise!"
             </h1>
           </div>

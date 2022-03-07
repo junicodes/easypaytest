@@ -7,7 +7,7 @@ export default function SwitchComp({onGetSwitchAction}) {
   useEffect(() => {
     console.log(enabled)
     return onGetSwitchAction(enabled)
-  }, [enabled])
+  }, [enabled, onGetSwitchAction])
   
   return (
     <div className="">

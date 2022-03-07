@@ -12,7 +12,7 @@ const PaymentConnect = () => {
     <>
         {
           connects.map(([title, image, desc]) => (
-            <div className='border w-full my-5 h-16 rounded-lg p-5 flex justify-start items-center'>
+            <div key={title} className='border w-full my-5 h-16 rounded-lg p-5 flex justify-start items-center'>
               <div className='w-1/12'>
                 <img className="w-12 h-5 mr-3" src={`/images/${image}`} />
               </div>

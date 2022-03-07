@@ -15,7 +15,7 @@ const Body = () => {
         <Showcase />
         <div className='w-11/12 mx-auto h-64 flex justify-between item-center p-14 px-20 mb-40 rounded-lg'  style={{background: '#0e3d83'}}>
             <div>
-                <h1 className='text-white font-semibold mb-3' style={{fontSize: '52px'}}>Let's try our service now!</h1>
+                <h1 className='text-white font-semibold mb-3' style={{fontSize: '52px'}}>Let&apos;s try our service now!</h1>
                 <p className='text-white text-xl'>Easy to use API that allow you to get up and running with <br></br>
                     a powerful payments infrastucture in nder five minutes.
                 </p>

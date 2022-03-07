@@ -84,7 +84,7 @@ const ShowcaseThree = () => {
                     </h1>
                     <p className="text-lg text-left mt-8 mb-5 text-gray-600 leading-normal">
                     Offer new payments methods that better suit your<br></br> 
-                    customer's needs reduce your time to get <br></br> paid.
+                    customer&apos;s needs reduce your time to get <br></br> paid.
                     </p>
                     <nav className="mb-5">
                         <ul>
