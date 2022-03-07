@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="md:flex md:justify-between items-start pt-16">
                     <div className="mb-6 md:mb-0">
                         <a href="#" className="flex items-center">
-                            <img src="/images/easy_paylogo.jpeg" className="mr-3 h-8" alt="FlowBite Logo" />
+                            <img src="/images/footer-easypay-logo.jpg" className="mr-3 h-8" alt="Easypay Logo" />
                         </a>
                         <p className="text-sm text-gray-400 sm:text-cente mt-8 leading-7">
                             Easypay is the highest rated <br></br> Shopify expert team in the world.
