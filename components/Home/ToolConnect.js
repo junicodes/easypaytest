@@ -66,12 +66,12 @@ const ToolConnect = () => {
           <div className="w-1/2">
             <h1 className="text-2xl text-white mb-5">PEOPLE MATTER, NOT PAPER</h1>
             <h1 className="text-white note">
-              "Upflow had a drastic impact <br></br>
+            &quot;Upflow had a drastic impact <br></br>
                on our cash collection strategy <br></br>
                at Front and makes it easy to <br></br>
                reach all of our customers, <br></br> 
                whether they&apos;re an SMB or <br></br>
-                Enterprise!"
+                Enterprise!&quot;
             </h1>
           </div>
           <div className="w-1/2 flex justify-center relative">
