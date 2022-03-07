@@ -208,7 +208,7 @@ const ShowcaseThree = () => {
                     }
                 }
             }
-            @media screen and (max-width: 768px) {  
+            @media screen and (max-width: 767px) {  
                 .divblock {
                    height: 1000px;
                 }

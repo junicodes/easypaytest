@@ -1,20 +1,24 @@
 
 
 import React from 'react'
+import { useMediaQuery } from 'react-responsive'
 
 const Footer = () => {
+    const isTab = useMediaQuery({
+        query: '(max-width: 1450px)'
+    })
     return (
         <div className='container mx-auto px-10 mt-20'>
-            <div className='w-11/12 mx-auto h-64 flex justify-between item-center p-14 px-20 mb-10 rounded-lg'>
-                <div>
-                    <h1 className='text-white font-semibold mb-3' style={{ fontSize: '36px', color: '#0b254a' }}>
+            <div className='w-full md:w-11/12 mx-auto h-64 flex flex-col md:flex-row justify-center md:justify-between item-center p-14 px-10 2xl:px-20 mb-20 md:mb-40 rounded-lg'>
+                <div className='w-full md:w-3/4'>
+                    <h1 className='text-white text-center md:text-left font-semibold mb-3 headFont' style={{color: '#0b254a'}}>
                         Join 8755+ Shopify merchants<br></br>
                         ho trust Carson
                     </h1>
                 </div>
-                <div>
+                <div className='w-full md:w-1/4 flex justify-center'>
                     <button style={{ background: '#7162b7' }}
-                        className={`btn w-64 h-16 rounded-md border text-center text-white text-sm font-normal`}
+                        className={`btn w-40 md:w-64 h-10 md:h-16 rounded-md border text-center text-white text-sm font-normal`}
                     >
                         Open a free account
                     </button>
@@ -118,6 +122,24 @@ const Footer = () => {
         <style jsx>{`
             .footer {
                 height: 400px
+            }
+            .headFont {
+                font-size: 52px;
+            }
+            @media screen and (max-width: 1200px) {  
+                .headFont {
+                    font-size: 36px;
+                }
+            }
+            @media screen and (max-width: 767px) {  
+                .headFont {
+                    font-size: 32px;
+                }
+            }
+            @media screen and (max-width: 500px) {  
+                .headFont {
+                    font-size: 24px;
+                }
             }
         `}</style>
         </div>

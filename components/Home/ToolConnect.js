@@ -30,39 +30,39 @@ const ToolConnect = () => {
                 <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-20 h-20 flex justify-center items-center absolute top-40 left-0">
                    <img className="w-16 h-5" src="/images/connect-visa.jpg" alt="user image" />
                 </div>
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-24 h-24 flex justify-center items-center absolute top-20 right-14">
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-24 h-24 flex justify-center items-center absolute top-20 right-14">
                    <img className="w-10 h-3" src="/images/connect-paypal.jpg" alt="user image" />
                 </div>
             </div>
             <div className="secRound mx-auto border border-gray-400 rounded-full absolute">
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-24 h-24 flex justify-center items-center absolute -top-2 left-24">
-                   <img className="w-8 h-8" src="/images/connect-america-express.jpg" alt="user image" />
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-14 h-14 md:w-24 md:h-24 flex justify-center items-center absolute top-4 md:-top-2 left-24">
+                   <img className="w-5 h-5 md:w-8 md:h-8" src="/images/connect-america-express.jpg" alt="user image" />
                 </div>
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-20 h-20 flex justify-center items-center absolute -top-4 right-36">
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-14 h-14 md:w-20 md:h-20 flex justify-center items-center absolute -top-4 right-36">
                    <img className="w-6 h-8" src="/images/connect-amazon.jpg" alt="user image" />
                 </div>
             </div>
             <div className="thrdRound mx-auto border border-gray-400 rounded-full absolute">
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-20 h-20 flex justify-center items-center absolute top-10 left-5">
-                   <img className="w-8 h-8" src="/images/connect-square.jpg" alt="user image" />
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-14 h-14 md:w-20 md:h-20 flex justify-center items-center absolute top-16 left-2.5 md:top-10 md:left-5">
+                   <img className="w-4 h-4 md:w-8 md:h-8" src="/images/connect-square.jpg" alt="user image" />
                 </div>
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-20 h-20 flex justify-center items-center absolute -top-8 left-52">
-                   <img className="w-12 h-5" src="/images/connect-gpay.jpg" alt="user image" />
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-14 h-14 md:w-20 md:h-20 flex justify-center items-center absolute -top-8 left-52 md:top-8 md:left-52">
+                   <img className="w-6 h-2.5 md:w-12 md:h-5" src="/images/connect-gpay.jpg" alt="user image" />
                 </div>
             </div>
             <div className="fortRound mx-auto border border-gray-400 rounded-full absolute">
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-20 h-20 flex justify-center items-center absolute -top-2 right-5">
-                   <img className="w-10 h-5" src="/images/connect-apple.jpg" alt="user image" />
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-14 h-14 md:w-20 md:h-20 flex justify-center items-center absolute -top-1 right-2.5 md:-top-2 md:right-5">
+                   <img className="w-8 h-4 md:w-10 md:h-5" src="/images/connect-apple.jpg" alt="user image" />
                 </div>
             </div>
             <div className="fifthRound mx-auto border border-gray-400 rounded-full absolute">
-                <div className="rounded-full bg-white shadow-2xl shadow-gray-200 w-28 h-28 flex justify-center items-center absolute -top-8 -left-3">
-                   <img className="w-16 h-10" src="/images/connect-master-card.jpg" alt="user image" />
+                <div className="rounded-full bg-white shadow-2xl shadow-gray-300 w-14 md:w-28 h-14 md:h-28 flex justify-center items-center absolute -top-4 -left-1.5 md:-top-8 md:-left-3">
+                   <img className="w-8 h-5 md:w-16 md:h-10" src="/images/connect-master-card.jpg" alt="user image" />
                 </div>
             </div>
           </div>
         </div>
-        <div className="blueBg w-full flex justify-between border p-24">
+        {/* <div className="blueBg w-full flex justify-between border p-24">
           <div className="w-1/2">
             <h1 className="text-2xl text-white mb-5">PEOPLE MATTER, NOT PAPER</h1>
             <h1 className="text-white note">
@@ -83,11 +83,11 @@ const ToolConnect = () => {
                 }}>
 
                 </div>
-                {/* <div className=" border image w-96 h-full flex justify-center align-middle absolute z-10">
+                <div className=" border image w-96 h-full flex justify-center align-middle absolute z-10">
                     <span className="mx-auto z-30 w-72 h-72 border border-gray-300 rounded-full absolute"></span>
-                </div> */}
+                </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <style jsx>{`
@@ -129,6 +129,29 @@ const ToolConnect = () => {
         }
         .blueBg .image {
             height: 450px
+        }
+        @media screen and (max-width: 767px) {  
+            .firstRound {
+                width: 700px;
+                height: 700px;
+              }
+              .secRound {
+                width: 550px;
+                height: 550px;
+              }
+              .thrdRound {
+                width: 400px;
+                height: 400px;
+              }
+              .fortRound {
+                width: 250px;
+                height: 250px;
+              }
+              .fifthRound {
+                width: 100px;
+                height: 100px;
+              }
+
         }
       `}</style>
     </>
