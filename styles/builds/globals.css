@@ -2822,6 +2822,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 66.666667%;
   }
 
+  .sm\:w-64 {
+    width: 16rem;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -3035,6 +3039,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 10rem;
   }
 
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3163,6 +3171,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 16rem;
   }
 
+  .md\:w-52 {
+    width: 13rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -3217,6 +3229,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:p-14 {
+    padding: 3.5rem;
   }
 
   .md\:px-10 {
@@ -3702,6 +3718,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .xl\:w-64 {
+    width: 16rem;
   }
 
   .xl\:translate-x-4 {

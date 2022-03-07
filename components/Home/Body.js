@@ -27,7 +27,7 @@ const Body = () => {
             </div>
             <div className='w-full md:w-1/4 flex justify-center'>
                 <button
-                  className={`btn w-40 h-10 md:h-12 mt-14 rounded-sm border text-center text-black bg-white text-sm font-semibold`}
+                  className={`btn w-40 h-14 md:h-12 mt-14 rounded-sm border text-center text-black bg-white text-sm font-semibold`}
                   >
                   Learn More
                 </button>
