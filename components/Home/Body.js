@@ -22,7 +22,7 @@ const Body = () => {
             <div className='w-full md:w-3/4'>
                 <h1 className='text-white text-center md:text-left font-semibold mb-3 headFont'>Let&apos;s try our service now!</h1>
                 <p className='text-white text-center md:text-left text-xs md:text-sm xl:text-xl'>Easy to use API that allow you to get up and running with <br></br>
-                    a powerful payments infrastucture in nder five minutes.
+                    a powerful payments infrastucture in under five minutes.
                 </p>
             </div>
             <div className='w-full md:w-1/4 flex justify-center'>

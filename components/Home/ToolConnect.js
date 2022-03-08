@@ -10,7 +10,7 @@ const ToolConnect = () => {
           className={`${styles.heroText} text-center`}
           style={{ fontSize: "32px" }}
         >
-          Connect to your exisitng tools
+          Connect to your exiitng tools
         </h1>
         <p className="text-lg text-center mt-8 mb-5 text-gray-400 leading-normal">
           Upflow seamlessly integrationith the way you work today. Keep your
