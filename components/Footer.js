@@ -8,7 +8,7 @@ const Footer = () => {
         query: '(max-width: 1450px)'
     })
     return (
-        <div className='container mx-auto px-10'>
+        <div className='container mx-auto px-2 md:px-10'>
             <div className='w-full md:w-11/12 mx-auto h-28 flex flex-col md:flex-row justify-center md:justify-between item-center xl:px-10 2xl:px-20 mb-20 md:mb-24 rounded-lg'>
                 <div className='w-full '>
                     <h1 className='text-white text-center md:text-left font-semibold mb-3 headFont' style={{color: '#0b254a'}}>

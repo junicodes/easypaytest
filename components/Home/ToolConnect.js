@@ -62,8 +62,8 @@ const ToolConnect = () => {
             </div>
           </div>
         </div>
-        <div className="blueBg w-full flex flex-col md:flex-row md:justify-between p-10 xl:p-24 mb-20">
-          <div className="w-full md:w-1/2">
+        <div className="blueBg w-full flex flex-col md:flex-row md:justify-between p-10 xl:p-20 mb-20">
+          <div className="w-full md:w-1/2 lg:mt-10">
             <h1 className="text-xl text-center md:text-left xl:text-2xl text-white mb-5">PEOPLE MATTER, NOT PAPER</h1>
             <h1 className="text-white note text-center md:text-left">
             &quot;Upflow had a drastic impact <br></br>
