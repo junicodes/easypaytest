@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className='w-full '>
                     <h1 className='text-white text-center md:text-left font-semibold mb-3 headFont' style={{color: '#0b254a'}}>
                         Join 8755+ Shopify merchants<br></br>
-                        ho trust Carson
+                        who trust Carson
                     </h1>
                 </div>
                 <div className='w-full flex justify-center'>
