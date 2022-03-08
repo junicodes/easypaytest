@@ -62,10 +62,10 @@ const ToolConnect = () => {
             </div>
           </div>
         </div>
-        {/* <div className="blueBg w-full flex justify-between border p-24">
-          <div className="w-1/2">
-            <h1 className="text-2xl text-white mb-5">PEOPLE MATTER, NOT PAPER</h1>
-            <h1 className="text-white note">
+        <div className="blueBg w-full flex flex-col md:flex-row md:justify-between p-10 xl:p-24 mb-20">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-md text-center md:text-left xl:text-2xl text-white mb-5">PEOPLE MATTER, NOT PAPER</h1>
+            <h1 className="text-white note text-center md:text-left">
             &quot;Upflow had a drastic impact <br></br>
                on our cash collection strategy <br></br>
                at Front and makes it easy to <br></br>
@@ -74,7 +74,7 @@ const ToolConnect = () => {
                 Enterprise!&quot;
             </h1>
           </div>
-          <div className="w-1/2 flex justify-center relative">
+          <div className="w-full md:w-1/2 flex justify-center relative">
                 <div className="image w-96" style={{
                     backgroundImage: `url("/images/junicodes_official_cut.png")`,
                     backgroundPosition: 'center',
@@ -83,11 +83,11 @@ const ToolConnect = () => {
                 }}>
 
                 </div>
-                <div className=" border image w-96 h-full flex justify-center align-middle absolute z-10">
-                    <span className="mx-auto z-30 w-72 h-72 border border-gray-300 rounded-full absolute"></span>
+                <div className=" mage w-96 h-full flex justify-center align-middle absolute z-10">
+                    <span className="mx-auto z-30 w-72 h-72 border-gray-300 rounded-full absolute"></span>
                 </div>
           </div>
-        </div> */}
+        </div>
       </div>
 
       <style jsx>{`
@@ -130,6 +130,18 @@ const ToolConnect = () => {
         .blueBg .image {
             height: 450px
         }
+        @media screen and (max-width: 1200px) {  
+          .blueBg {
+            height: 400px;
+            background: #1d62ca;
+          }
+          .blueBg .note {
+              font-size: 24px;
+          }
+          .blueBg .image {
+            height: 300px
+        }
+      }
         @media screen and (max-width: 767px) {  
             .firstRound {
                 width: 700px;
@@ -151,6 +163,16 @@ const ToolConnect = () => {
                 width: 100px;
                 height: 100px;
               }
+              .blueBg .note {
+                font-size: 22px;
+            }
+            .blueBg {
+              height: 800px;
+              background: #1d62ca;
+            }
+            .blueBg .image {
+              height: 450px
+          }
 
         }
       `}</style>
